@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://suryasen.dev/sitemap.xml
+Sitemap: https://www.suryasenvishwakarma.tech/sitemap.xml
