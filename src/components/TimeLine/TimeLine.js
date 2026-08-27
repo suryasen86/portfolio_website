@@ -46,7 +46,11 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        I'm Suryasen Vishwakarma, a backend engineer based in Mumbai with 5+ years of experience
+        building scalable, cloud-native systems. I specialize in Node.js, Express, and gRPC — backed
+        by MySQL and Redis — and I ship them with Docker, Kubernetes, and Helm on AWS and GCP.
+        I care deeply about clean APIs, reliable infrastructure, and CI/CD pipelines that make
+        deployments boring in the best way. Currently working as SDE-3 at MOR (Stock Trading App).
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

@@ -4,7 +4,14 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
+const scrollToAbout = () => {
+  if (typeof window !== 'undefined') {
+    const el = document.getElementById('about');
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
+const Hero = () => (
   <>
     <Section row nopadding>
       <LeftSection>
@@ -17,7 +24,7 @@ const Hero = (props) => (
           MySQL, Redis, Docker, Kubernetes, and AWS/GCP. Passionate about clean APIs, reliable
           infrastructure, and automated CI/CD.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button onClick={scrollToAbout}>Learn More</Button>
       </LeftSection>
     </Section>
   </>

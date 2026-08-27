@@ -14,15 +14,15 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects" legacyBehavior passHref>
-          <NavLink>Projects</NavLink>
-        </Link>
-      </li>
-      <li>
         <Link href="#tech" legacyBehavior passHref>
           <NavLink>Technologies</NavLink>
         </Link>
       </li>        
+      <li>
+        <Link href="#certifications" legacyBehavior passHref>
+          <NavLink>Certifications</NavLink>
+        </Link>
+      </li>
       <li>
         <Link href="#about" legacyBehavior passHref>
           <NavLink>About</NavLink>
