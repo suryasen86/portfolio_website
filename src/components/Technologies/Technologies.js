@@ -1,50 +1,52 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiNodejsSmall } from 'react-icons/di';
+import { SiKubernetes } from 'react-icons/si';
+import { FaAws } from 'react-icons/fa';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      I work across the backend and infrastructure stack — from writing APIs to shipping them on
+      Kubernetes in the cloud.
     </SectionText>
     <List>
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
+          <DiNodejsSmall size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Backend</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            Node.js, Express, gRPC <br />
+            MySQL, Redis
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
+          <SiKubernetes size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>DevOps</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
+            Docker, Kubernetes, Helm <br />
+            Jenkins, GitHub Actions
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <FaAws size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Cloud</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            AWS (S3, EC2, Lambda, SNS, Route53) <br />
+            GCP
           </ListParagraph>
         </ListContainer>
       </ListItem>
