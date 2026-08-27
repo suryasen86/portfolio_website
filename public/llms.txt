@@ -1,0 +1,35 @@
+# Suryasen Vishwakarma
+
+Backend Engineer based in Mumbai, Maharashtra, India.
+
+5+ years of experience building scalable, cloud-native backend systems.
+
+## Core skills
+- Languages: Node.js, JavaScript, Python
+- Frameworks: Express.js, gRPC, Laravel
+- Data: MySQL, Redis
+- Containers & orchestration: Docker, Kubernetes, Helm, Minikube
+- Cloud: AWS (EC2, S3, Lambda, SNS, Route53), Google Cloud Platform (GCP)
+- CI/CD: Jenkins, GitHub Actions
+- Infrastructure as Code: Terraform
+
+## Current role
+SDE-3 at MOR (Stock Trading App), Mumbai — since June 2026.
+
+## Career timeline
+- 2021: Full Stack Developer at CretMark Business Solutions
+- 2022: SDE at Cabbagesoft Technologies
+- 2023: SDE-1 at Carrot, then CTR Tech Pvt. Ltd.
+- 2024: SDE-2 at Neo Wealth and Asset Management
+- 2026: Promoted to SDE-3, joined MOR (Stock Trading App)
+
+## Education
+- Master of Computer Applications (Cloud Computing & DevOps), Chandigarh University, 2024–2026
+- Bachelor of Science, Information Technology, Nagindas Khandwala College, 2020–2023
+
+## Contact
+- Email: vishwakarmasuryasen@gmail.com
+- Phone: +91 83568 27126
+- GitHub: https://github.com/suryasen86
+- LinkedIn: https://www.linkedin.com/in/suryasen-vishwakarma
+- Website: https://suryasen.dev

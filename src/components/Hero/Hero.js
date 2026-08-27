@@ -15,14 +15,15 @@ const Hero = () => (
   <>
     <Section row nopadding>
       <LeftSection>
-        <SectionTitle main center>
-          Hi, I'm Suryasen <br />
+        <SectionTitle as="h1" main center>
+          Hi, I'm Suryasen Vishwakarma <br />
           Backend Engineer
         </SectionTitle>
         <SectionText>
-          I build scalable, cloud-native backends with Node.js, Express, and gRPC — powered by
-          MySQL, Redis, Docker, Kubernetes, and AWS/GCP. Passionate about clean APIs, reliable
-          infrastructure, and automated CI/CD.
+          I'm a backend engineer based in Mumbai, India with 5+ years of experience building
+          scalable, cloud-native systems. I specialize in Node.js, Express, and gRPC — backed by
+          MySQL and Redis — and ship them on Docker, Kubernetes, and Helm across AWS and GCP,
+          with automated CI/CD via Jenkins and GitHub Actions.
         </SectionText>
         <Button onClick={scrollToAbout}>Learn More</Button>
       </LeftSection>

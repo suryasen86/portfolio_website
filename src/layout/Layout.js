@@ -4,12 +4,16 @@ import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import { Container } from './LayoutStyles'
 
-export const Layout = ({children}) => {
+export const Layout = ({ children }) => {
   return (
     <Container>
-     <Header/>
-     <main>{children}</main> 
-     <Footer/>
+      <header>
+        <Header />
+      </header>
+      <main>{children}</main>
+      <footer>
+        <Footer />
+      </footer>
     </Container>
   )
 }
